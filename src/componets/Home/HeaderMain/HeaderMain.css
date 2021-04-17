@@ -1,0 +1,16 @@
+.purple-border textarea {
+    border: 1px solid #ba68c8;
+}
+.purple-border .form-control:focus {
+    border: 1px solid #ba68c8;
+    box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+}
+.bg-img{
+    background-image: url('../../../images/mobileRepairBg.jpg'), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   height: 600px;
+   background-blend-mode: darken;
+   color: white;
+}
