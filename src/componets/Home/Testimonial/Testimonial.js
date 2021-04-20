@@ -1,9 +1,9 @@
 import React from 'react';
 import TestimonialDetails from '../TestimonialDetails/TestimonialDetails';
 import './Terminal.css'
-import client1 from '../../images/client-1.jpg'
-import client2 from '../../images/client-2.jpg'
-import client3 from '../../images/client-3.png'
+import client1 from '../../../images/client-1.jpg'
+import client2 from '../../../images/client-2.jpg'
+import client3 from '../../../images/client-3.png'
 let testimonial = [
     {
         clientSays : 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci fugiat quas nobis earum provident recusandae optio assumenda nulla eaque amet.',

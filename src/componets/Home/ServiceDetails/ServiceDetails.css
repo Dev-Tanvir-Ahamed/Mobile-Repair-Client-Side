@@ -14,6 +14,7 @@
 }
 
 
+/* 
 .services-col:before{
     content: '';
     position: absolute;
@@ -32,7 +33,7 @@
     transform-origin: bottom;
     transition: 0.5s;
 
-}
+} */
 
 .services-col h3,
 .services-col p,
@@ -42,11 +43,12 @@
     color: #333;
     transition: 0.5s;
 }
-.services-col:hover h3,
-.services-col:hover p
+/* .services-col:hover h3,
+.services-col:hover p,
+.services-col:hover span
 {
     color: #fff;
-}
+} */
 .service-icon{
     font-size: 35px;
     text-align: center;
@@ -54,3 +56,7 @@
 .services-col:hover .service-icon i{
     color: white;
 }
+/* .services-col:hover .service-btn{
+    background-color: yellow !important;
+    z-index: -999;
+} */

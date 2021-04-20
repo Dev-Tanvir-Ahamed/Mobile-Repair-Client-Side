@@ -1,6 +1,7 @@
 import React from 'react';
 import BrokenMobile from '../../../images/brokenPhone.jpg'
-import AboutInfo from '../../AboutInfo/AboutInfo';
+import AboutInfo from '../AboutInfo/AboutInfo';
+
 const About = () => {
     return (
         <section className="about-section mt-5 container">

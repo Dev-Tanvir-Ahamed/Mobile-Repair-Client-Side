@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { UserContext } from '../../../App';
 import logo from "../../../images/logo-wide.png"
 
 const Navbar = () => {
+  let [loggedInUser, setLoggedInUser] = useContext(UserContext)
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"><img src={logo} className="img-fluid" alt=""/></a>
@@ -22,9 +25,16 @@ const Navbar = () => {
             <li class="nav-item">
               <a class="nav-link ms-5 ms-4" href="#">Expert</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link ms-5 ms-4" href="#">Products</a>
-            </li>
+            {
+                        !loggedInUser.name && <li className="nav-item">
+                        <Link className="nav-link btn btn-primary p-2" to="/login">Login</Link>
+                        </li>
+                    }
+                    {
+                        loggedInUser.name &&  <li className="nav-item">
+                          <Link className="nav-link font-weight-bold p-2" to="/login">{loggedInUser.name} <img className="photo" src={loggedInUser.photo} alt=""/> </Link>
+                          </li>
+                    }
             <li class="nav-item">
               <a class="nav-link ms-5 ms-4" href="#">Contact</a>
             </li>

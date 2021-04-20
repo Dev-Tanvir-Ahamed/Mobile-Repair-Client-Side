@@ -1,7 +1,7 @@
 import React from 'react';
 import './TestimonialDetails.css'
 const TestimonialDetails = ({testimonial}) => {
-    console.log(testimonial);
+    // console.log(testimonial);
     return (
               <div className="col-md-4 col-lg-4 item">
                   <div className="box">
