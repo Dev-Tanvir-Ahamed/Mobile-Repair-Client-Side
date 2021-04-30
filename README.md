@@ -1,4 +1,4 @@
-Mobile Repair has a multi features system.
+Mobile Repair has a multi features website.
 
 1. We can repair any mobile handset or laptop.
 2. When we go repair anything would be sign in with google.It make by firebase authentication system.
